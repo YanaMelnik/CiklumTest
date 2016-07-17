@@ -162,12 +162,14 @@ body {
 	color: #2f2f2f;
 }
 
-form {
-	margin: 5px 0px 0px 1200px;
+.search {
+	1margin: 5px 0px 0px 1200px;
 	height: 50px;
 	display: inline-block;
+	float: right;
+	padding: 5px 100px 0 0;
 }
-input, button {
+.search input, .search button {
 	font-family: wf_segoe-ui_normal,Tahoma,Verdana,Arial,sans-serif;
 	float: left;
 	outline: none;
@@ -178,7 +180,7 @@ input, button {
 	border: 1px solid #A9A9A9;
 }
 
-input {
+.search input {
 	padding: 0 20px;
 	margin: 0;
 	font-size: 15px;
@@ -186,7 +188,7 @@ input {
 	text-decoration: black;
 }
 
-button {
+.search button {
 	width: 50px;
 	padding: 0;
 }
@@ -216,6 +218,15 @@ button {
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
   }
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans Invision';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  
+}
 
 .hero-h1 {
 	width: 450px;
@@ -274,5 +285,34 @@ background-color: #2895F1;
 	color: #0071E0;
 }
 
+.invisionapp-subs {
+	background-color: #323a45;
+	padding: 100px 0 200px 0;
+	width: 100%;
+
+}
+
+.invisionapp-subs h2{
+	font-family: "Open Sans Invision", "open-sans", sans-serif;
+	font-weight: 300;
+	font-size: 35px;
+	margin: 0;
+	color: white;
+	text-align: center;
+	
+}
 
 
+.invisionapp-subs>div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+}
+
+.invisionapp-input{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	width: 215px;
+	height: 25px;
+}
