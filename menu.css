@@ -383,3 +383,42 @@ background-color: #2895F1;
 .invisionapp-subs p>a:hover{
 	color: white;
 }
+
+.bg1 {
+	background-image: url(https://scontent.oculuscdn.com/t64.5771-25/11162714_283652092025521_547216123_n.jpg/eve-valkyrie.jpg); 
+}
+
+.bg2 {
+	background-image: url(https://scontent.oculuscdn.com/t64.5771-25/12504834_1610504179262797_1233001088_n.jpg/luckys-tale.jpg); 
+}
+
+.bg3 {
+	background-image: url(https://scontent.oculuscdn.com/t64.5771-25/12680264_165436440535334_659901318_n.jpg/oc3-stage-image.jpg); 
+}
+
+.oculus-bg {
+	float: left;
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: transform .3s, opacity .3s;
+    
+}
+
+.oculus-item{
+	height: 300px;
+	width: 33%;
+	float: left;
+}
+
+.oculus-item>a{
+	color: #8d8e8f;	
+	cursor: pointer;
+	background-color: black;
+	display: block;
+	height: 100%;
+}
