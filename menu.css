@@ -1,0 +1,278 @@
+#menu-bottom{
+	position: absolute;
+
+
+}
+
+.menu {
+	list-style: none;
+	/*flex-1direction: row;		*/
+	/*align-items: flex-start;  */
+	/*display: inline-flex;		*/
+	/*align-items: stretch;		*/
+	padding: 0;
+	margin: 0;
+	margin: 0px 0px 0px 170px;
+	font-family: "Segoe UI", wf_segoe-ui_normal, Arial, sans-serif;
+	
+}
+
+.submenu {
+	display: none;
+	list-style: none;
+	position: absolute;
+	padding: 0;
+	background-color: #F1F1F1;
+	width: 200px;
+	z-index: 500;
+}
+
+.submenu-line2 {
+	list-style: none;
+	position: absolute;
+	display: none;
+	float: left;
+	background-color: #E5E5E5;
+	left: 200px;
+	width: 350px;
+	padding: 0;
+	margin: 0;
+}
+
+.menu-item {
+	vertical-align: text-top;
+	float: left;
+	padding:  0px;
+	width: 100px;
+}
+
+.submenu-item {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	display: block;
+
+	
+}
+
+.submenu-line2-item {
+	padding: 0;
+	margin: 0;
+}
+
+.menu-item-link {
+	text-decoration: none;
+	padding: 15.9px 17px;
+	width: 66px;
+	text-overflow: clip;
+	display: block;
+
+	
+	
+			 
+
+
+}
+
+.submenu-item-link {
+	text-decoration: none;
+	display: block;
+	padding: 12px 18px;
+	float: left;
+			 
+		 
+	width: 164px;	
+}
+
+.submenu-line2-item-link {
+	text-decoration: none;
+	padding: 10px 20px;
+	
+	display: block;
+}
+
+
+
+.menu-item-link:hover {
+	background-color: #F1F1F1;
+	text-decoration: none;
+}
+
+.submenu-item-link:hover {
+	background-color: #E5E5E5;
+}
+
+.submenu-line2-item-link:hover {
+	background-color: #D9D9D9;
+	text-decoration: underline;
+}
+
+.active .menu-item-link {
+	background-color: #F1F1F1;
+}	
+
+.menu-item-link:not(:hover) {
+	transition-duration: 0.5s;
+}
+
+.submenu-item-link:not(:hover) {
+	transition-duration: 0.5s;
+}
+
+.submenu-line2-item-link:not(:hover) {
+	transition-duration: 0.5s;
+}
+
+#logo-box {
+	cursor: pointer;
+	float: left;
+ 	margin-left: 25px;
+}
+
+nav {
+	width: 100%;
+  	height: 50px;
+  	background-color: white;
+  	padding: 0;
+  	margin: 0;	/*какого без этого не работает красиво??? */
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.submenu > li:hover .submenu-line2 {
+    display: block;
+}
+
+#logo {
+	display: block;
+    vertical-align: baseline;
+    max-height: 23px;
+    margin-top: 12px;
+}
+
+.menu a {
+	color: #2f2f2f;
+}
+
+.menu a:visited {
+	color: #2f2f2f;
+}
+
+form {
+	margin: 5px 0px 0px 1200px;
+	height: 50px;
+	display: inline-block;
+}
+input, button {
+	font-family: wf_segoe-ui_normal,Tahoma,Verdana,Arial,sans-serif;
+	float: left;
+	outline: none;
+	color: white;
+	width: 244px;
+	height: 36px;
+	padding: 0 10px;
+	border: 1px solid #A9A9A9;
+}
+
+input {
+	padding: 0 20px;
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.5;
+	text-decoration: black;
+}
+
+button {
+	width: 50px;
+	padding: 0;
+}
+
+.hero_background-image-container {
+	background-image: url("https://cfl.dropboxstatic.com/static/images/business/homepage/background--pc--female-vfl1oeEA8.jpg");
+	margin-left: 60px;
+    width: 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+	height: 700px;
+	z-index: -1;
+	border-top: 1px solid #f7f7f7;
+}
+
+.hero_background-container {
+	background-color: #f7f7f7;
+	height: 700px;
+	width: 100%;
+	1position: absolute;
+
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  }
+
+.hero-h1 {
+	width: 450px;
+	text-align: left;
+	color: #47525d;
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	font-weight: 100;
+	font-size: 47.25px;
+	padding-top: 60px;
+	line-height: 1.3em;
+}
+
+.hero-h2 {
+	width: 400px;
+	text-align: left;
+	color: #47525d;
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	font-weight: 100;
+	font-size: 21px;
+	line-height: 31.5px;
+}
+
+.try-business-button {
+	background-color: #0071E0;
+	color: #FFFFFF;
+	border-radius: 6px;
+	line-height: 21px;
+	padding: 19px 26px;
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	font-weight: 100;
+	font-size: 21px;
+	text-decoration: none;
+	
+}
+
+.try-business-button:hover {
+background-color: #2895F1;
+}
+.business-button {
+	margin-top: 60px;
+}
+
+.hero_text-block {
+	margin-left: 400px;
+
+}
+
+.hero_buy {
+	font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.hero_buy a{
+	color: #0071E0;
+}
+
+
+
