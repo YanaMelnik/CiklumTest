@@ -24,7 +24,38 @@ $(window).click(function(){
 	$('.submenu-item').click(function(event){
 		event.stopPropagation();
 	})
+}
+function labelForInput(input) {
+	var id = input.id;
+	return $("label[for='"+id+"']"); 
+}
 
+function invisionForm() {
+	var $formInputs = $('.invisionapp-input>input');
+	$formInputs.keyup(function () {
+		var labelVisible = $(this).val().length==0;
+		
+		var $label = labelForInput(this); 
+
+		if (labelVisible) {
+			$label.show();
+		} else {
+			$label.hide();
+		}
+	});
+
+	$formInputs.focusin(function () {
+		var $label = labelForInput(this);
+		if ($label.is(":visible")){
+			$label.fadeTo('fast', 0.5);
+		}
+	});
+	$formInputs.focusout(function () {
+		var $label = labelForInput(this);
+		if ($label.is(":visible")){
+			$label.fadeTo('fast', 1);
+		}
+	});
 
 
 }
