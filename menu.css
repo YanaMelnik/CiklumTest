@@ -287,7 +287,7 @@ background-color: #2895F1;
 
 .invisionapp-subs {
 	background-color: #323a45;
-	padding: 100px 0 200px 0;
+	padding: 100px 0 100px 0;
 	width: 100%;
 
 }
@@ -295,7 +295,7 @@ background-color: #2895F1;
 .invisionapp-subs h2{
 	font-family: "Open Sans Invision", "open-sans", sans-serif;
 	font-weight: 300;
-	font-size: 35px;
+	font-size: 30px;
 	margin: 0;
 	color: white;
 	text-align: center;
@@ -307,12 +307,79 @@ background-color: #2895F1;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1280px;
+	margin-top: 70px; 
 }
 
 .invisionapp-input{
 	display: inline-block;
 	padding: 0px;
 	margin: 0px;
-	width: 215px;
+	position: relative;
+	margin-top: 70px;
+}
+
+.invisionapp-input>label{
+	font-size: 18px;
+    line-height: 1.8em;
+    color: #747c83;  
+    bottom: 15px;
+    margin: 16px 0 0 50px;
+    position: absolute;
+    font-family: "Open Sans Invision", "open-sans", sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 33px;
+
+}
+
+.invisionapp-input>input{
 	height: 25px;
+	width: 215px;
+	margin-left: 10px;
+    padding: 18px 15px 18px 48px;
+    border-radius: 3px;
+    border: 1px solid #D4D7DA;
+
+
+}
+
+.invisionapp-input>button{
+	padding: 21px 40px 19px;
+    background: #ff3366;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    line-height: 1em;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background 0.3s;
+	height: 63px;
+	display: inline-block;
+	margin-left: 10px;
+}
+	
+.invisionapp-input>button:hover{
+	background-color: #F42156;	
+}
+
+.invisionapp-subs p{
+	font-size: 12px;
+	line-height: 1.8em;
+    color: #747c83;
+    font-family: "Open Sans Invision", "open-sans", sans-serif;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+.invisionapp-subs p>a{
+	color: #747c83;
+}
+
+.invisionapp-subs p>a:hover{
+	color: white;
 }
