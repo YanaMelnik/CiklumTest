@@ -6,7 +6,7 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	margin: 0px 0px 0px 170px;
+	margin: 0px 0px 0px 270px;
 	font-family: "Segoe UI", wf_segoe-ui_normal, Arial, sans-serif;
 }
 
@@ -103,10 +103,16 @@
 	transition-duration: 0.5s;
 }
 
-#logo-box {
+.logo-box {
 	cursor: pointer;
 	float: left;
-	margin-left: 25px;
+	margin-left: 120px;
+	height: 48px;
+}
+
+.logo-box>a{
+	cursor: pointer;
+	margin-top: 13px;
 }
 
 nav {
@@ -344,15 +350,15 @@ body {
 	margin-top: 50px;
 }
 
-.invisionapp-subs p>a{
+.invisionapp-subs p>a {
 	color: #747c83;
 }
 
-.invisionapp-subs p>a:hover{
+.invisionapp-subs p>a:hover {
 	color: white;
 }
 
-.invisionapp-input>i{
+.invisionapp-input>i {
 	background-image: url('https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png');
     background-repeat: no-repeat;
 	display: inline-block;
@@ -364,16 +370,15 @@ body {
     left: 25px;
 }
 
-.invisionapp-input>i:nth-child(1){
+.invisionapp-input:nth-child(1) i {
 	background-position: 0 -474px;
 }
 
-
-.invisionapp-input>i:nth-child(2){
+.invisionapp-input:nth-child(2) i {
 	background-position: 0 -386px;
 }
 
-.invisionapp-input>i:nth-child(3){
+.invisionapp-input:nth-child(3) i {
 	background-position: 0 -430px;
 }
 
