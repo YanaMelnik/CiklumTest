@@ -143,7 +143,6 @@ body {
 }
 
 .search {
-	1margin: 5px 0px 0px 1200px;
 	height: 50px;
 	display: inline-block;
 	float: right;
@@ -166,7 +165,6 @@ body {
 	margin: 0;
 	font-size: 15px;
 	line-height: 1.5;
-	text-decoration: black;
 }
 
 .search button {
@@ -176,7 +174,6 @@ body {
 
 .hero_background-image-container {
 	background-image: url("https://cfl.dropboxstatic.com/static/images/business/homepage/background--pc--female-vfl1oeEA8.jpg");
-	margin-left: 60px;
 	width: 100%;
 	background-position: right center;
 	background-repeat: no-repeat;
@@ -296,12 +293,12 @@ body {
 .invisionapp-input>label{
 	font-size: 18px;
 	line-height: 1.8em;
-	color: #747c83;  
+	color: #8a959e;  
 	bottom: 15px;
-	margin: 16px 0 0 50px;
+	margin: 16px 0 0 60px;
 	position: absolute;
 	font-family: "Open Sans Invision", "open-sans", sans-serif;
-	font-weight: normal;
+	font-weight: 900;
 	font-size: 18px;
 	line-height: 33px;
 }
@@ -353,6 +350,31 @@ body {
 
 .invisionapp-subs p>a:hover{
 	color: white;
+}
+
+.invisionapp-input>i{
+	background-image: url('https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png');
+    background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 18px;
+    left: 25px;
+}
+
+.invisionapp-input>i:nth-child(1){
+	background-position: 0 -474px;
+}
+
+
+.invisionapp-input>i:nth-child(2){
+	background-position: 0 -386px;
+}
+
+.invisionapp-input>i:nth-child(3){
+	background-position: 0 -430px;
 }
 
 .bg1 {
@@ -430,4 +452,136 @@ body {
 	z-index: 10;
 }
 
+.footer-apple>div {
+	font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 400;
+    color: #666;
+    overflow: hidden;
+    position: relative;
+    font-family: "Myriad Set Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	text-align: left;	
+	margin: 0 auto;
+    padding: 0 22px;
+    max-width: 980px;
+}
 
+.footer-apple{
+	background-color: #f2f2f2;
+}
+
+.apple-fMenu{
+	font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 400;
+    letter-spacing: normal;
+    display: table;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+}
+
+.fMenu-column{
+	width: 20%;
+	float: left;
+}
+
+.under-menu{
+	color: #999;
+    padding: 20px 0 24px;
+    display: block;
+}
+
+.fMenu-column h4 {
+	font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+    font-family: "Myriad Set Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.fMenu-column ul {
+	margin-right: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.fMenu-column ul>li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.under-menu-shop {
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: #999;
+}
+
+.under-menu-shop>a {
+	color: #08c;
+	text-decoration: none;
+}
+
+.under-menu-shop>a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.copyright {
+	margin-right: 26px;
+    float: left;
+    color: #999;
+    font-size: 12px;
+}
+
+.legal-menu {
+    margin-right: 26px;
+    float: left;
+}
+
+.legal-menu>a {
+	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    font-size: 12px;
+	color: #666;
+    text-decoration: none;
+}
+
+.legal-menu>a:last-child {
+	border-right: none;
+}
+
+.legal-menu>a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.under-menu-locacion{
+	float: right;
+	color: #999;
+	text-decoration: none;	
+}
+
+.under-menu-locacion>a{
+	color: #999;
+	text-decoration: none;	
+}
+
+.under-menu-locacion>a:hover{
+	color: black;
+	text-decoration: underline;	
+}
+
+.under-menu-locacion span{
+    background-image: url("http://images.apple.com/ac/flags/1/images/us/16.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+	background-position: bottom;
+}
