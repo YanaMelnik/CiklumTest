@@ -1,20 +1,13 @@
 #menu-bottom{
 	position: absolute;
-
-
 }
 
 .menu {
 	list-style: none;
-	/*flex-1direction: row;		*/
-	/*align-items: flex-start;  */
-	/*display: inline-flex;		*/
-	/*align-items: stretch;		*/
 	padding: 0;
 	margin: 0;
 	margin: 0px 0px 0px 170px;
 	font-family: "Segoe UI", wf_segoe-ui_normal, Arial, sans-serif;
-	
 }
 
 .submenu {
@@ -51,8 +44,6 @@
 	padding: 0px;
 	position: relative;
 	display: block;
-
-	
 }
 
 .submenu-line2-item {
@@ -66,12 +57,6 @@
 	width: 66px;
 	text-overflow: clip;
 	display: block;
-
-	
-	
-			 
-
-
 }
 
 .submenu-item-link {
@@ -79,19 +64,14 @@
 	display: block;
 	padding: 12px 18px;
 	float: left;
-			 
-		 
 	width: 164px;	
 }
 
 .submenu-line2-item-link {
 	text-decoration: none;
 	padding: 10px 20px;
-	
 	display: block;
 }
-
-
 
 .menu-item-link:hover {
 	background-color: #F1F1F1;
@@ -126,15 +106,15 @@
 #logo-box {
 	cursor: pointer;
 	float: left;
- 	margin-left: 25px;
+	margin-left: 25px;
 }
 
 nav {
 	width: 100%;
-  	height: 50px;
-  	background-color: white;
-  	padding: 0;
-  	margin: 0;	/*какого без этого не работает красиво??? */
+	height: 50px;
+	background-color: white;
+	padding: 0;
+	margin: 0;	
 }
 
 body {
@@ -144,14 +124,14 @@ body {
 }
 
 .submenu > li:hover .submenu-line2 {
-    display: block;
+	display: block;
 }
 
 #logo {
 	display: block;
-    vertical-align: baseline;
-    max-height: 23px;
-    margin-top: 12px;
+	vertical-align: baseline;
+	max-height: 23px;
+	margin-top: 12px;
 }
 
 .menu a {
@@ -169,6 +149,7 @@ body {
 	float: right;
 	padding: 5px 100px 0 0;
 }
+
 .search input, .search button {
 	font-family: wf_segoe-ui_normal,Tahoma,Verdana,Arial,sans-serif;
 	float: left;
@@ -196,7 +177,7 @@ body {
 .hero_background-image-container {
 	background-image: url("https://cfl.dropboxstatic.com/static/images/business/homepage/background--pc--female-vfl1oeEA8.jpg");
 	margin-left: 60px;
-    width: 100%;
+	width: 100%;
 	background-position: right center;
 	background-repeat: no-repeat;
 	height: 700px;
@@ -208,24 +189,22 @@ body {
 	background-color: #f7f7f7;
 	height: 700px;
 	width: 100%;
-	1position: absolute;
-
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
-  }
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+}
 
 /* latin */
 @font-face {
-  font-family: 'Open Sans Invision';
-  font-style: normal;
-  font-weight: 300;
-  src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-  
+	font-family: 'Open Sans Invision';
+	font-style: normal;
+	font-weight: 300;
+	src: url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+
 }
 
 .hero-h1 {
@@ -259,19 +238,18 @@ body {
 	font-weight: 100;
 	font-size: 21px;
 	text-decoration: none;
-	
 }
 
 .try-business-button:hover {
-background-color: #2895F1;
+	background-color: #2895F1;
 }
+
 .business-button {
 	margin-top: 60px;
 }
 
 .hero_text-block {
 	margin-left: 400px;
-
 }
 
 .hero_buy {
@@ -289,7 +267,6 @@ background-color: #2895F1;
 	background-color: #323a45;
 	padding: 100px 0 100px 0;
 	width: 100%;
-
 }
 
 .invisionapp-subs h2{
@@ -299,9 +276,7 @@ background-color: #2895F1;
 	margin: 0;
 	color: white;
 	text-align: center;
-	
 }
-
 
 .invisionapp-subs>div{
 	margin-left: auto;
@@ -320,39 +295,36 @@ background-color: #2895F1;
 
 .invisionapp-input>label{
 	font-size: 18px;
-    line-height: 1.8em;
-    color: #747c83;  
-    bottom: 15px;
-    margin: 16px 0 0 50px;
-    position: absolute;
-    font-family: "Open Sans Invision", "open-sans", sans-serif;
+	line-height: 1.8em;
+	color: #747c83;  
+	bottom: 15px;
+	margin: 16px 0 0 50px;
+	position: absolute;
+	font-family: "Open Sans Invision", "open-sans", sans-serif;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 33px;
-
 }
 
 .invisionapp-input>input{
 	height: 25px;
 	width: 215px;
 	margin-left: 10px;
-    padding: 18px 15px 18px 48px;
-    border-radius: 3px;
-    border: 1px solid #D4D7DA;
-
-
+	padding: 18px 15px 18px 48px;
+	border-radius: 3px;
+	border: 1px solid #D4D7DA;
 }
 
 .invisionapp-input>button{
 	padding: 21px 40px 19px;
-    background: #ff3366;
-    border: 0;
-    border-radius: 5px;
-    color: white;
-    font-size: 15px;
-    line-height: 1em;
-    font-family: "brandon-grotesque", sans-serif;
-    font-weight: 700;
+	background: #ff3366;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	line-height: 1em;
+	font-family: "brandon-grotesque", sans-serif;
+	font-weight: 700;
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: background 0.3s;
@@ -360,7 +332,7 @@ background-color: #2895F1;
 	display: inline-block;
 	margin-left: 10px;
 }
-	
+
 .invisionapp-input>button:hover{
 	background-color: #F42156;	
 }
@@ -368,12 +340,11 @@ background-color: #2895F1;
 .invisionapp-subs p{
 	font-size: 12px;
 	line-height: 1.8em;
-    color: #747c83;
-    font-family: "Open Sans Invision", "open-sans", sans-serif;
+	color: #747c83;
+	font-family: "Open Sans Invision", "open-sans", sans-serif;
 	font-weight: normal;
 	text-align: center;
 	margin-top: 50px;
-	
 }
 
 .invisionapp-subs p>a{
@@ -399,26 +370,64 @@ background-color: #2895F1;
 .oculus-bg {
 	float: left;
 	background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .3;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    transition: transform .3s, opacity .3s;
-    
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .3;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	transition-duration: 0.3s;
+	color: #a4a5a6;
+	z-index: 5;    
+}
+
+.oculus-item:hover .oculus-bg {
+	opacity: 1;
+	transform: scale(1.05);
+	background-size: 110%;
 }
 
 .oculus-item{
 	height: 300px;
-	width: 33%;
+	width: 33.33%;
 	float: left;
+	background-color: #282828;
+	z-index: -1;
+	overflow: hidden;
 }
 
 .oculus-item>a{
-	color: #8d8e8f;	
 	cursor: pointer;
-	background-color: black;
-	display: block;
 	height: 100%;
 }
+
+.oculus-item h4 {
+	opacity: 1;
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 16px;
+	text-align: center;
+	font-family: Arial, "Helvetica", sans-serif;
+	margin-top: 130px; 
+	color: #a4a5a6;
+}
+
+.oculus-item h3 {
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 28px;
+	margin: 0;
+	text-align: center;
+	font-family: Arial, "Helvetica", sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.oculus-text {
+	position: absolute; 
+	width: 33.33%; 
+	z-index: 10;
+}
+
+
